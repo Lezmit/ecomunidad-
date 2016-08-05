@@ -1,0 +1,372 @@
+body{
+	box-sizing: content-box;
+	margin: 0 auto;
+}
+.container{
+	width: 90%;
+	margin:0 auto;
+	padding:0;
+}
+
+/* ----------------------------------Header------------------ */
+p{
+	font-family: sans-serif;
+	font-size: 13.5px;
+}
+header{
+	background:white;
+	margin: 0px;
+	width: 100%;
+}
+
+.logo{
+	width: 110px;
+	height: 100px;
+	float: right;
+}
+ nav ul{
+ 	display: inline-block;
+ 	list-style-type: none;
+ }
+nav li {
+	 position: relative;
+	 float: left;
+	 margin: 0;
+	 padding-right: 20px;
+	 padding-left: 20px;
+		list-style-type: none;
+	
+}
+.linea{
+ border-right: 1px solid #AB9A9A;
+}
+nav a{
+	 color: #9A9A9A;
+	 padding: 10px 15px;
+	 text-decoration: none;
+	 font-weight: 600;
+}
+
+nav a:hover{
+	color: #9C3334;
+}
+
+ul{
+	padding-top: 38px;
+}
+/*---------------------------imagen semilla ------------------------*/
+
+.seccion{
+	background-image:url("../img/semilla.jpg");
+	background-repeat: no-repeat;
+	height: 320px; 
+}
+/*---------------------------seccion2------------------*/
+
+.seccion2{
+	background: #F2F2F2;
+	padding:70px 0px;
+	color: #4D4D4D;
+	}
+.seccion2 p{
+	margin: 0px 30px;	
+}
+/*---------------------------seccion3--------------*/
+.seccion3{
+	height: 350px;
+}
+.mision{
+	text-align: center;
+	margin-left: 100px;
+	margin-top: 60px;
+	margin-right:50px;
+
+}
+.vision{
+	margin-top: 60px;
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 50px;
+
+}
+.mision h2{
+	 margin:5px 0px 5px 0px;
+}
+.vision h2{
+	margin:5px 0px 5px 0px;
+}
+.seccion3 p{
+	color:#4D4D4D;
+}
+/*-----------------------seccion4-----------------*/
+
+.fotometo{
+	width: 50%;
+	
+	position: relative;
+	float: left;
+}
+
+.metodo{
+	width: 674.5px;
+	height: 396px;
+}
+.metodologia
+{
+	background: #3D714D;
+	text-align: center;
+	height: 396px;	
+}
+.pencil{
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.cajaM{
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+	color: #FFFFF3;
+	
+}
+.cajaM h2{
+	margin-bottom: 30px;
+	color:#FFFFF3;
+}
+/*-------------------------------seccion5--------------*/
+.container5{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.container5 h2{
+	margin-bottom: 30px;
+}
+.icono{
+	
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-bottom: 50px;
+}
+
+
+.imagenicono{
+	margin-bottom:5px;
+	width: 100px;
+	height:100px;
+}
+
+.centro{
+	margin: 0px 100px 80px 100px;
+	color: #4D4D4D;
+
+}
+
+.icono h3{
+	color: #5E8039;
+	margin-bottom: 15px;
+}
+.icono p{
+	color: #4D4D4D;
+	font-size: 12px;
+	
+}
+/*--------------------seccion6-------------*/
+.seccion6{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.container6{
+	width: 85%;
+	margin: 0 auto;	
+}
+.seccion6 h2{
+	color:#FFFFFF;
+	text-align: center;
+}
+.division{
+	margin-top: 20px;
+}
+ .seccion6{
+ 	background: #5E8039;
+ }
+
+
+ .foto{
+ 	width: 450px;
+ 	height: 300px;
+ 	position: relative;
+ 	float: right;
+ 	margin-bottom: 5px;
+ }
+.espacio{
+	position: relative;
+	float: right;
+	color: #FFFFFF;
+}
+.espacio h3{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.espacio p{
+	font-size: 12.5px;
+	margin: 10px 0px;
+	
+}
+
+/*-----------------seccion 7----------------*/
+
+.seccion7{
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.equipos{
+	margin: 0 auto;
+	text-align: center;
+	padding-left:120px;
+	padding-right: 50px;
+	margin-bottom: 50px;
+	}
+.equipo{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+.cajai{
+	margin-top: 30px;
+	margin-left: 125px;
+
+}
+.iconos{
+	margin: 10px;
+	position: relative;
+	float: left;
+	border-radius: 5px;
+	
+}
+.redes{
+	width: 40px;
+	height: 40px;
+	background: white;	
+}
+/*-------------------------seccion8-------------*/
+.seccion8{
+	background-image:url("../img/fondo2.jpg");
+	padding-bottom: 50px;
+}
+.slide1{
+	position: absolute;
+	margin-top:280px;
+	margin-left: 50px;
+	width: 40px;
+	height: 40px;
+}
+.slide2{
+	position: absolute;
+	right: 0;
+	margin-top:280px;
+	margin-right: 50px;
+	width: 40px;
+	height: 40px;
+}
+.container8{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.blog{
+	margin-left: 16px;
+}
+.container9{
+	width:95%;
+	margin:0 auto; 
+	margin-left: 70px;
+	padding-right: 70px;
+}
+.fotoblog{
+	width: 320px;
+	height: 250px;
+	padding-bottom: 10px;
+	}
+
+.caja8 a{
+	font-size: 25px;
+}	
+.caja8 p{
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+.caja8 >*{
+	color: #424242;
+} 
+.caja3{
+	
+}
+.container9 .caja3
+{
+	position: relative;
+	float: left;
+}
+/*-------------------seccion9-----------------*/
+.seccion9{
+	background: #424242;
+	height: 400px;
+	padding:80px 100px; 
+}
+
+.caja{
+	border:1px solid #e0e0e0;
+	width: 280px;
+	height: 250px;
+	position: relative;
+	float: left;
+}
+.seccion9 p{
+	padding-top: 20px;
+	padding-left: 20px;
+	color: #e0e0e0;
+}	
+.sociales{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+/*--------------footer--------*/
+footer{
+	background: #eeeeee;
+	height: 200px;
+}
+.laboratoria{
+	height: 50px;
+	position: absolute;
+
+	margin-left: 120px;
+	margin-top:80px;
+}
+.color{
+	color: #ffd740 ;
+}
+.datos{
+	height: 80px;
+	position: absolute;
+	right:0;
+	margin-right: 120px;
+	margin-top:80px;
+	text-align: left;
+}
+
+footer p{
+	font-size: 16px;
+}
+.text-resaltado{
+	font-weight: 600;
+}
